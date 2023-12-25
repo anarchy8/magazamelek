@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Maven+Pro:wght@500&family=Poppins:wght@500&family=Roboto&family=Space+Grotesk&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster Two";
+  /* font-family: "Averia Libre", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  list-style-type: none;
+}
+
+:root {
+  --maincolor: #ffd3e4;
+}
+.navbar {
+  background-color: var(--maincolor);
+}
+
+.section-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-col h1 {
+  font-size: 55px;
+}
+.section-btn {
+  background-color: crimson;
+  transition: all 1s;
+}
+.section-btn:hover {
+  background-color: #ffafd1;
+}
+.ürün {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ürün h1 {
+  font-size: 35px;
+}
+.ürün p {
+  font-size: 30px;
+}
+/* responsive navbar */
+@media screen and (max-width: 768px) {
+  .nav-link {
+    display: none !important;
+  }
+}
